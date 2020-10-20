@@ -35,7 +35,7 @@ function rand(arr) {
 
 function ColorBox(props) {
     const [boxes, setBoxes] = useState(
-        Array.from({length: props.numBoxes}, () => rand(props.alColors))
+        Array.from({length: props.numBoxes}, () => rand(props.allColors))
     );
     const handleClick = evt => {
         let idx = Math.floor(Math.random() * props.numBoxes);

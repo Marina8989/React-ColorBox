@@ -2,8 +2,7 @@ import React from "react";
 
 function Box(props) {
    return (
-       <div>
-           style={{backgroundColor: props.color}}
+       <div style={{backgroundColor: props.color}}>
        </div>
    )
 }
